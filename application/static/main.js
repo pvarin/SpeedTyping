@@ -11,7 +11,6 @@ var end_time;
 var calc_speed = function(evt){
 	if (start_time === null){
 		start_time = evt.timeStamp;
-		console.log(evt.timeStamp);
 		return 0;
 	}
 	var diff = evt.timeStamp - start_time;
